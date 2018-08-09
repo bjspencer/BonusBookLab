@@ -90,7 +90,7 @@ public class Book {
 	@Override
 	public String toString() {
 
-		return String.format("%-35s %-25s %-20s %-20f", title, author, isbn);
+		return String.format("%-35s %-25s %-20s %-20f", title, author, isbn, price);
 	}
 
 }
